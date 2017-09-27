@@ -16,4 +16,4 @@ São disponibilizadas implementações em [Scilab](https://www.scilab.org/) dos 
 
 * Métodos Numéricos para Equações Diferenciais
 
-  * Runge-Kutta de 4ª ordem
+  * Métodos One-Step
