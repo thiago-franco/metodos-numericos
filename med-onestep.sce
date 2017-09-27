@@ -49,7 +49,11 @@ function Y = eulerModificado(a,b, yk, h)
     Y = y
 endfunction
 
-function Y=eulerMelhorado(a, b, y0, h)
+function Y=runge-kutta1(a,b, yk, h)
+    Y =  euler(a,b, yk, h)
+endfunction
+
+function Y=runge-kutta2(a, b, y0, h)
     x(1) = a;
     y(1) = y0;
     m = (b-a)/h;
@@ -59,10 +63,6 @@ function Y=eulerMelhorado(a, b, y0, h)
         y(i+1)=y(i)+(k1+k2)*h/2;
         x(i+1)=x(i)+h;
     end
-endfunction
-
-function Y=runge-kutta1(a,b, yk, h)
-    Y =  Euler(a,b, yk, h)
 endfunction
 
 function Y=runge-kutta3(a,b, yk, h)
