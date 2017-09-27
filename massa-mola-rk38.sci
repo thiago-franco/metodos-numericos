@@ -109,6 +109,3 @@ function plotar(y0, v0, deltaT, m, c, k, r, n)
     ylabel("velocidade");
     legend("analítico", "numérico");    
 endfunction
-
-
-
