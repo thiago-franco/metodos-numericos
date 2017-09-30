@@ -22,4 +22,6 @@ São disponibilizadas implementações em [Scilab](https://www.scilab.org/) dos 
 
 Os métodos de otimização podem ser avaliados em funções de teste a partir de uma interface visual, que possibilita a criação de gráficos.
 
+Para acessar a interface, basta executar o arquivo 'otimizacao/main.sce'.
+
 ![interface](https://github.com/thiago-franco/metodos-numericos/blob/master/otimizacao.png)
