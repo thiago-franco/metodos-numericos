@@ -17,3 +17,9 @@ São disponibilizadas implementações em [Scilab](https://www.scilab.org/) dos 
 * Métodos Numéricos para Equações Diferenciais
 
   * Métodos One-Step
+
+#### Interface gráfica para métodos de otimização
+
+Os métodos de otimização podem ser avaliados em funções de teste a partir de uma interface visual, que possibilita a criação de gráficos.
+
+![interface](https://github.com/thiago-franco/metodos-numericos/blob/master/otimizacao.png)
